@@ -112,7 +112,7 @@ public class UserService {
                 AuthenticationToken authToken  = new AuthenticationToken(existingUser);
                 authenticationService.saveAuthToken(authToken);
 
-                EmailHandler.sendEmail("mainakgh1@gmail.com","email testing",authToken.getTokenValue());
+                EmailHandler.sendEmail("neyazwakil8271@gmail.com","email testing",authToken.getTokenValue());
                 return "Token sent to your email";
             }
             else {
